@@ -11,6 +11,7 @@
 # - hardcoded paths
 # - races were not investigated
 # - it may overwrite a file (very unprobable case)
+# - mktemp is used incorrectly, it leaves a lot of files in ~/
 # - see TODO
 
 SIZE="$1"
